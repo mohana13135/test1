@@ -1,0 +1,166 @@
+body {
+    background-image: url("file\ 1920x1080_003921.jpg");
+    background-size:cover;
+}
+body input body textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    direction: rtl;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    direction: rtl;
+}
+li{
+    display: inline-block;
+    margin: 20px;
+    color: rgb(237, 252, 252);
+}
+
+#navigation li a {
+    color: rgb(245, 245, 248);
+    text-decoration: none;
+    padding: 30px 15px;
+}
+#navigation li a:hover {
+    color: rgb(132, 222, 250);
+}
+#top-logo {
+    margin-top: 15px;
+    float: left;
+}
+
+.site-desc {
+    width: 1000px;
+    height: auto;
+    margin: 200px auto;
+    float: auto;
+    text-align: center;
+    color: rgb(247, 239, 239);
+}
+.site-desc h1 {
+    font-size: 36px;
+    border-bottom: 1px solid rgb(0, 217, 255);
+    display: inline;
+}
+.site-desc h3 {
+    margin-top: 20px;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+.site-desc a {
+    text-decoration: none;
+    border: 1px solid #00c0d0;
+    padding: 15px;
+    color: #00c0d0;
+    font-size: 14px;
+    border-radius: 4px;
+}
+.site-desc a:hover{
+    background-color: aqua;
+    color: rgb(242, 249, 253);
+}
+#our-story {
+    width: 100%;
+    background-color: rgb(239, 248, 248);
+    height: 400px;
+    margin-top: 1000px;
+    padding: 60px 0px 60px;
+}
+.right {
+    width: 47%;
+    height: auto;
+}
+.left {
+    width: 47%;
+    height: auto;
+    float: left;
+}
+.right h2{
+    color: #101111;
+}
+#our-story .left p {
+    color:#8f8f91;
+    line-height:1.3 ;
+    margin-top: 20px;
+}
+
+.more {
+    text-decoration: none;
+    border: 1px solid #00c0d0 !important;
+    padding: 15px;
+    color: #00c0d0;
+    font-size: 14px;
+    border-radius: 4px;
+    background-color: inherit;
+}
+.more:hover{
+    background-color: aqua;
+    color: aliceblue;
+}
+#client-message {
+    background-image: url("file\ 1920x1080_004148.jpg");
+    width: 100%;
+    height: 600px;
+}
+.client-message-qoute {
+    display: block;
+    margin: 0px auto;
+}
+#client-message p {
+    color: aliceblue;
+    line-height: 1.5;
+    margin-top: 60px;
+    text-align: center;
+}
+.client-pic {
+    display: block;
+    margin: 0 auto;
+}
+#contact {
+background-color: aliceblue;
+width: 100%;
+height: 700px;
+padding: 60px 0px;
+}
+#contact .left form input , #contact .left form textarea {
+    padding: 10px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    width: 93%;
+    outline: none;
+    border: 1px solid #e5e5e5;
+}
+#contact .left form textarea {
+    height: 150px; 
+    resize: none;
+}
+#contact .left form input[type=submit] {
+    width: 150px;
+    cursor: pointer;
+}
+#footer {
+    background-image: url("file\ 1920x1080_004963.jpg");
+    width: 100%;
+    height: 400px;
+    float: right;
+}
+#footer .left , #footer .right {
+    margin-top: 40px;
+}
+#footer .left p {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+
